@@ -10,7 +10,7 @@ This creates a "Review" content type and a "Review" content entry.
 npm run build && CONTENTFUL_SPACE=<CONTENTFUL_SPACE_ID> CONTENTFUL_ACCESS_TOKEN=<CONTENTFUL_CONTENT_MANAGEMENT_TOKEN> CONTENTFUL_ENVIRONMENT=<CONTENTFUL_ENVIRONMENT> npm run create-content
 ```
 
-Alternatively you can also [create the content manually](#Creating the Contentful content manually) through the Contentful UI.
+Alternatively you can also [create the content manually](#creating-the-contentful-content-manually) through the Contentful UI.
 
 ### Installation
 
