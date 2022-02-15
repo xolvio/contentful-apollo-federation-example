@@ -3,6 +3,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc --build",
+    "create-content": "node build/createContentfulContent.js",
     "start-subgraphs": "node build/startSubgraphs.js",
     "start-gateway": "node build/startGateway.js",
     "format": "prettier . --write",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.25",
+    "contentful-management": "^8.1.2",
     "prettier": "2.2.1",
     "typescript": "^4.5.5"
   }
