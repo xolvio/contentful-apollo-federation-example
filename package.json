@@ -3,7 +3,8 @@
   "type": "commonjs",
   "scripts": {
     "build": "tsc --build",
-    "start": "node build/index.js",
+    "start-subgraphs": "node build/startSubgraphs.js",
+    "start-gateway": "node build/startGateway.js",
     "format": "prettier . --write",
     "compose": "rover fed2 supergraph compose --config ./supergraph.yaml > src/supergraph.graphql",
     "query": "node build/client.js"

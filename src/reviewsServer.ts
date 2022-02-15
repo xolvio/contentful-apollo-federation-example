@@ -10,7 +10,7 @@ export async function createServer(): Promise<any> {
   verifyThatContentfulEnvironmentVariablesAreSet()
 
   const space = process.env.CONTENTFUL_SPACE!
-  const accessToken = process.env.CONTENTFUL_TOKEN!
+  const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN!
 
   const {server, schema} = await createApolloFederationEnabledContentfulServer(
     {

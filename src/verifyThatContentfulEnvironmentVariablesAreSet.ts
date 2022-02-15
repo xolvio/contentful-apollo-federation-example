@@ -2,7 +2,7 @@ export function verifyThatContentfulEnvironmentVariablesAreSet()
 {
   const requiredEnvironmentVariables = [
     'CONTENTFUL_SPACE',
-    'CONTENTFUL_TOKEN'
+    'CONTENTFUL_ACCESS_TOKEN'
   ]
 
   const missingEnvironmentVariables: string[] = []
