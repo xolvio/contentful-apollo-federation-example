@@ -1,0 +1,4 @@
+extend type Product @key(fields: "upc") {
+  upc: String! @external
+  reviews: [Review!]!
+}

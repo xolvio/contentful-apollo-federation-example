@@ -1,0 +1,9 @@
+subgraphs:
+  products:
+    routing_url: http://localhost:4200
+    schema:
+      file: src/products.graphql
+  reviews:
+    routing_url: http://localhost:4300
+    schema:
+      file: src/reviews.graphql

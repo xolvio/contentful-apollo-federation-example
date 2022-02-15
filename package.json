@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node build/index.js",
+    "format": "prettier . --write",
+    "compose": "rover fed2 supergraph compose --config ./supergraph.yaml > src/supergraph.graphql",
+    "query": "node build/client.js"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.0.0-alpha.5",
+    "@apollo/subgraph": "^0.3.0",
+    "apollo-server": "^3.6.3",
+    "cross-fetch": "^3.1.5",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.25",
+    "prettier": "2.2.1",
+    "typescript": "^4.5.5"
+  }
+}
