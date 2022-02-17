@@ -1,5 +1,8 @@
 # contentful-apollo-federation example
 
+Example repo showing how to use this package:
+https://github.com/xolvio/contentful-federation/
+
 ## How to run
 
 ### Creating the content in Contentful
