@@ -1,6 +1,7 @@
 {
   "private": true,
   "type": "commonjs",
+  "license": "MIT",
   "scripts": {
     "build": "tsc --build",
     "create-content": "node build/createContentfulContent.js",
